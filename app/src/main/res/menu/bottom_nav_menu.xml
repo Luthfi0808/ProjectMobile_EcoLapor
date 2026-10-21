@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/ic_nav_home" android:title="@string/nav_home" />
+    <item android:id="@+id/nav_jelajah" android:icon="@drawable/ic_nav_jelajah" android:title="@string/nav_jelajah" />
+    <item android:id="@+id/nav_aktivitas" android:icon="@drawable/ic_nav_aktivitas" android:title="@string/nav_aktivitas" />
+</menu>

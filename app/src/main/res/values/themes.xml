@@ -1,0 +1,27 @@
+<resources>
+    <style name="Base.Theme.TugasPemrogramanMobile_Luthfi3TIC" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/eco_primary</item>
+        <item name="colorOnPrimary">@color/eco_on_primary</item>
+        <item name="colorSecondary">@color/eco_primary</item>
+        <item name="colorSurface">@color/eco_surface</item>
+        <item name="colorOnSurface">@color/eco_text</item>
+        <item name="android:colorBackground">@color/eco_background</item>
+        <item name="android:windowBackground">@color/eco_background</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.TugasPemrogramanMobile_Luthfi3TIC" parent="Base.Theme.TugasPemrogramanMobile_Luthfi3TIC" />
+    <style name="Widget.EcoLapor.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/eco_background</item>
+        <item name="titleTextColor">@color/eco_text</item>
+        <item name="navigationIconTint">@color/eco_text</item>
+        <item name="titleTextAppearance">@style/TextAppearance.EcoLapor.Toolbar</item>
+    </style>
+    <style name="TextAppearance.EcoLapor.Toolbar" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

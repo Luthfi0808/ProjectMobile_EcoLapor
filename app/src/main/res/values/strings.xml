@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">EcoLapor</string>
+    <string name="ecolapor_title">EcoLapor</string>
+    <string name="environment_description">Ilustrasi lingkungan hijau dengan pepohonan, sungai, dan tempat sampah</string>
+    <string name="ecolapor_tagline">Peduli lingkungan sekitar.</string>
+    <string name="welcome_title">Bersama jaga lingkungan</string>
+    <string name="welcome_description">Sarana melaporkan sampah, pencemaran, dan masalah lingkungan lainnya.</string>
+    <string name="about_ecolapor">Tentang EcoLapor</string>
+    <string name="ecolapor_description">EcoLapor adalah aplikasi yang dirancang sebagai sarana bagi masyarakat untuk melaporkan masalah lingkungan yang mereka temukan di sekitar tempat tinggal maupun ruang publik. Masalah tersebut dapat berupa sampah menumpuk, drainase tersumbat, pencemaran air, pohon tumbang, dan polusi.\n\nMelalui EcoLapor, masyarakat diajak lebih peduli terhadap kondisi lingkungan dan berperan aktif menyampaikan permasalahan agar dapat diketahui serta ditindaklanjuti oleh pihak terkait.</string>
+    <string name="purpose_title">Tujuan aplikasi</string>
+    <string name="ecolapor_purpose">Memudahkan masyarakat menyampaikan laporan masalah lingkungan, meningkatkan kepedulian bersama, serta membantu pihak terkait mengenali masalah yang perlu ditangani demi lingkungan yang bersih, sehat, dan aman.</string>
+    <string name="issues_title">Jenis permasalahan yang dapat dilaporkan</string>
+    <string name="ecolapor_issues">• Sampah menumpuk di jalan, sungai, atau fasilitas umum.\n• Saluran drainase tersumbat yang menyebabkan genangan.\n• Pencemaran air akibat limbah atau sampah.\n• Pohon tumbang yang menghalangi jalan atau membahayakan warga.\n• Polusi udara dan gangguan lingkungan lainnya.</string>
+    <string name="back_home">Kembali ke Beranda</string>
+    <string name="logout">LogOut</string>
+    <string name="logout_confirmation">Yakin ingin keluar dari EcoLapor?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="login_title">Masuk ke EcoLapor</string>
+    <string name="login_action">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="username_required">Username wajib diisi</string>
+    <string name="password_required">Password wajib diisi</string>
+    <string name="invalid_credentials">Username atau password salah</string>
+    <string name="home_title">EcoLapor</string>
+    <string name="detail_title">Tentang EcoLapor</string>
+    <string name="logo_description">Logo EcoLapor berupa daun dalam penanda lokasi</string>
+</resources>

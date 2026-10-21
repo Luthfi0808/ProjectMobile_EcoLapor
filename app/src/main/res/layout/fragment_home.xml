@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/eco_background">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.EcoLapor.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:title="@string/home_title" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="22dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="24dp">
+            <TextView
+                style="@style/EcoBody"
+                android:id="@+id/tvWelcome"
+                android:text="@string/home_hello"
+                android:textSize="12sp" />
+            <TextView
+                style="@style/EcoHeading"
+                android:text="@string/home_headline"
+                android:textSize="22sp"
+                android:layout_marginTop="6dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                android:padding="22dp"
+                android:background="@drawable/bg_eco_card">
+                <TextView
+                    style="@style/EcoEyebrow"
+                    android:text="@string/home_eyebrow"
+                    android:textColor="#D4E7DB" />
+                <TextView
+                    style="@style/EcoHeading"
+                    android:text="@string/home_card_title"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/eco_on_primary"
+                    android:textSize="25sp" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnDetail"
+                    style="@style/EcoButton"
+                    android:text="@string/about_ecolapor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    app:backgroundTint="@color/eco_surface"
+                    android:textColor="@color/eco_primary"
+                    app:iconTint="@color/eco_primary"
+                    app:cornerRadius="10dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <TextView
+                style="@style/EcoSection"
+                android:text="@string/home_section"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="14dp" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/pemandangan"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/environment_description"
+                app:shapeAppearanceOverlay="@style/EcoPhoto" />
+            <TextView
+                style="@style/EcoBody"
+                android:text="@string/welcome_description"
+                android:layout_marginTop="12dp"
+                android:textSize="13sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/eco_line"
+                android:layout_marginVertical="20dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogout"
+                style="@style/EcoButton"
+                android:text="@string/logout"
+                android:layout_height="50dp"
+                app:backgroundTint="@color/eco_logout_surface"
+                android:textColor="@color/eco_accent"
+                app:strokeColor="#E7B7A7"
+                app:strokeWidth="1dp"
+                app:iconTint="@color/eco_accent"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

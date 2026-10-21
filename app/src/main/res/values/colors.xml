@@ -1,0 +1,14 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="eco_primary">#173F35</color>
+    <color name="eco_on_primary">#FFFFFF</color>
+    <color name="eco_background">#F7F5EF</color>
+    <color name="eco_surface">#FFFFFF</color>
+    <color name="eco_text">#173C35</color>
+    <color name="eco_secondary">#E4EDE5</color>
+    <color name="eco_muted">#64776F</color>
+    <color name="eco_line">#D7DED6</color>
+    <color name="eco_accent">#CB765C</color>
+    <color name="eco_logout_surface">#F5EAE4</color>
+</resources>

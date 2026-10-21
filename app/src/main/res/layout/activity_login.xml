@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/eco_background">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.EcoLapor.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:title="@string/login_title" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="26dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="32dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="55.00000000000001dp"
+                    android:layout_height="55.00000000000001dp"
+                    android:src="@drawable/ic_ecolapor"
+                    android:contentDescription="@string/logo_description" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ecolapor_title"
+                        android:textColor="@color/eco_text"
+                        android:fontFamily="sans-serif-medium"
+                        android:letterSpacing="-0.04"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brand_motto"
+                        android:textColor="@color/eco_primary"
+                        android:textSize="6.25sp"
+                        android:letterSpacing="0.16" />
+                </LinearLayout>
+            </LinearLayout>
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="60dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/eco_background"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="0dp"
+                app:cardPreventCornerOverlap="false">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        style="@style/EcoEyebrow"
+                        android:text="@string/login_eyebrow" />
+                    <TextView
+                        style="@style/EcoHeading"
+                        android:text="@string/login_welcome"
+                        android:layout_marginTop="14dp"
+                        android:textSize="30sp" />
+                    <TextView
+                        style="@style/EcoBody"
+                        android:text="@string/login_intro"
+                        android:layout_marginTop="14dp"
+                        android:textSize="13sp" />
+                    <TextView
+                        style="@style/EcoSection"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/username_hint"
+                        android:textSize="12sp"
+                        android:labelFor="@id/username" />
+                    <EditText
+                        android:id="@+id/username"
+                        style="@style/EcoField"
+                        android:layout_marginTop="8dp"
+                        android:hint="@string/username_hint"
+                        android:drawableStart="@drawable/ic_eco_user"
+                        android:inputType="text"
+                        android:autofillHints="username"
+                        android:imeOptions="actionNext" />
+                    <TextView
+                        style="@style/EcoSection"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/password_hint"
+                        android:textSize="12sp"
+                        android:labelFor="@id/password" />
+                    <EditText
+                        android:id="@+id/password"
+                        style="@style/EcoField"
+                        android:layout_marginTop="8dp"
+                        android:hint="@string/password_hint"
+                        android:drawableStart="@drawable/ic_eco_lock"
+                        android:inputType="textPassword"
+                        android:autofillHints="password"
+                        android:imeOptions="actionDone" />
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button"
+                        style="@style/EcoButton"
+                        android:text="@string/login_action"
+                        android:layout_marginTop="32dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/eco_line"
+                android:layout_marginVertical="20dp" />
+            <TextView
+                style="@style/EcoBody"
+                android:text="@string/ecolapor_tagline"
+                android:gravity="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

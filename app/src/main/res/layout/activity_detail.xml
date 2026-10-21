@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/eco_background">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pemandangan"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/environment_description" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_eco_scrim" />
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            style="@style/Widget.EcoLapor.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:title="@string/detail_title"
+            android:background="@android:color/transparent"
+            app:titleTextColor="@color/eco_on_primary"
+            app:navigationIconTint="@color/eco_on_primary"
+            app:navigationIcon="@drawable/ic_back"
+            app:navigationContentDescription="@string/back_home"
+            app:titleCentered="true" />
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/bg_eco_detail"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="28dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/EcoEyebrow"
+                    android:text="@string/detail_eyebrow"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="9sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_chip"
+                    android:textSize="8sp"
+                    android:letterSpacing="0.06"
+                    android:textColor="@color/eco_primary"
+                    android:background="@drawable/bg_eco_chip"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="7dp" />
+            </LinearLayout>
+            <TextView
+                style="@style/EcoHeading"
+                android:text="@string/ecolapor_title"
+                android:layout_marginTop="18dp"
+                android:textSize="28sp" />
+            <TextView
+                style="@style/EcoBody"
+                android:text="@string/ecolapor_tagline"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/eco_line"
+                android:layout_marginVertical="20dp" />
+            <TextView
+                style="@style/EcoBody"
+                android:text="@string/ecolapor_description" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/eco_line"
+                android:layout_marginVertical="20dp" />
+            <TextView
+                style="@style/EcoSection"
+                android:text="@string/purpose_title" />
+            <TextView
+                style="@style/EcoBody"
+                android:text="@string/ecolapor_purpose"
+                android:layout_marginTop="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/eco_line"
+                android:layout_marginVertical="20dp" />
+            <TextView
+                style="@style/EcoSection"
+                android:text="@string/issues_title" />
+            <TextView
+                style="@style/EcoBody"
+                android:text="@string/ecolapor_issues"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="6dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKembali"
+                style="@style/EcoButton"
+                android:text="@string/back_home"
+                android:layout_marginTop="28dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

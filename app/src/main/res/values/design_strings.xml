@@ -1,0 +1,15 @@
+<resources>
+    <string name="brand_motto">LIHAT. LAPORKAN. JAGA.</string>
+    <string name="brand_caption">Platform laporan lingkungan warga.</string>
+    <string name="brand_footer">BERSAMA UNTUK LINGKUNGAN</string>
+    <string name="login_eyebrow">MASUK KE AKUNMU</string>
+    <string name="login_welcome">Selamat datang\nkembali</string>
+    <string name="login_intro">Masuk untuk mulai menjaga lingkungan bersama.</string>
+    <string name="home_hello">Halo, selamat datang</string>
+    <string name="home_headline">Jaga sekitar, mulai hari ini.</string>
+    <string name="home_eyebrow">LINGKUNGAN KITA</string>
+    <string name="home_card_title">Perubahan besar\ndimulai dari sekitar.</string>
+    <string name="home_section">Kenali EcoLapor</string>
+    <string name="detail_eyebrow">TENTANG APLIKASI</string>
+    <string name="detail_chip">PEDULI LINGKUNGAN</string>
+</resources>

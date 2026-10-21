@@ -1,0 +1,9 @@
+<resources>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_jelajah">Jelajah</string>
+    <string name="nav_aktivitas">Aktivitas</string>
+    <string name="home_username">Halo, %1$s</string>
+    <string name="jelajah_intro">Kenali jenis masalah lingkungan yang dapat dilaporkan. Ketuk kategori untuk memilih.</string>
+    <string name="aktivitas_intro">Contoh laporan lingkungan untuk praktikum. Foto dan status merupakan ilustrasi.</string>
+    <string name="laporan_photo">Ilustrasi laporan %1$s</string>
+</resources>
